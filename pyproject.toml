@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-hash"
-version = "0.1.0"
+version = "0.1.2"
 description = "A Python package for password hashing and comparision using bcrypt"
 readme = "README.md"
 authors = [

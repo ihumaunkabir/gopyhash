@@ -1,4 +1,4 @@
-name: python-hash CI/CD Pipeline
+name: python-hash pipeline
 
 on:
   push:
@@ -47,7 +47,7 @@ jobs:
       run: |
         python -m build
         twine check dist/*
-        
+
   debug-ref:
     runs-on: ubuntu-latest
     steps:
@@ -62,7 +62,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     # Only publish to PyPI when a tag is pushed
-    if: startsWith(github.ref, 'refs/tags/')
+    #  if: startsWith(github.ref, 'refs/tags/')
     
     steps:
     - uses: actions/checkout@v3
