@@ -48,6 +48,16 @@ jobs:
         python -m build
         twine check dist/*
         
+  debug-ref:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Debug Tag Information
+      run: |
+        echo "GitHub ref: ${{ github.ref }}"
+        echo "GitHub ref_name: ${{ github.ref_name }}"
+        echo "GitHub event_name: ${{ github.event_name }}"
+        echo "Is tag? ${{ startsWith(github.ref, 'refs/tags/') }}"
+
   publish:
     needs: build
     runs-on: ubuntu-latest
