@@ -1,19 +1,19 @@
 ![pipeline](https://github.com/ihumaunkabir/python-hash/actions/workflows/publish.yml/badge.svg)
 
-# python-hash
+# gopyhash
 
 A package for password hashing and comparision using bcrypt. 
 
 ## Installation
 
 ```bash
-pip install python-hash
+pip install gopyhash
 ```
 
 ## Usage
 
 ```python
-from python_hash import generate_hash_from_text, compare_hash_and_text
+from gopyhash import generate_hash_from_text, compare_hash_and_text
 
 # Generate a hash from a password
 password = "my_secure_password"

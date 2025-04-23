@@ -3,12 +3,12 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-hash"
-version = "0.1.0"
+name = "gopyhash"
+version = "1.0.0"
 description = "A package for password hashing and comparision using bcrypt"
 readme = "README.md"
 authors = [
-    {name = "Humaun Kabir", email = "humaun.kabir@phystech.edu"}
+    {name = "Humaun Kabir", email = "hello@ihumaun.com"}
 ]
 license = {text = "MIT"}
 classifiers = [
