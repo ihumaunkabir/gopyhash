@@ -25,5 +25,5 @@ dependencies = [
 requires-python = ">=3.10"
 
 [project.urls]
-"Homepage" = "https://github.com/ihumaunkabir/python-hash"
-"Bug Tracker" = "https://github.com/ihumaunkabir/python-hash/issues"
+"Homepage" = "https://github.com/ihumaunkabir/gopyhash"
+"Bug Tracker" = "https://github.com/ihumaunkabir/gopyhash/issues"
